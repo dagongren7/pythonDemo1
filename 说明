@@ -1,4 +1,0 @@
-pip --default-timeout=100 install appium-python-client -i http://pypi.douban.com/simple/ --trusted-host pypi.douban.com
-
-考研帮： ckl19960418 chen123456
-
