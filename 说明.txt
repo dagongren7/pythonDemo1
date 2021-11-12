@@ -5,14 +5,30 @@ pip --default-timeout=100 install appium-python-client
 
 git config --global http.sslVerify "false"
 
-
 pip install pillow 和 pytesseract 安装两个包，配置ocr的tessdata的环境变量 tessdata_preffix ,
 去百度云下载语言包，语言包解压到tessdata目录下
 
 
+初次推送代码：
+git remote add origin https://github.com/dagongren7/videoPlay.git
+
+git push -u origin master
+
+git push origin master
+
+Failed to connect to github.com port 443:connection timed out
+取消全局代理：
+git config --global http.proxy http://127.0.0.1:1080
+
+git config --global https.proxy http://127.0.0.1:1080
+
+git config --global --unset http.proxy
+ 
+git config --global --unset https.proxy
+
+ unable to access 'https://github.com/dagongren7/videoPlay.git/': OpenSSL SSL_read: Connection was reset, errno 10054
+
+git config --global http.sslVerify false
 
 
-
-
-
-
+token: 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
