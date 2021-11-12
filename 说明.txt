@@ -7,3 +7,4 @@ git config --global http.sslVerify "false"
 
 pip install pillow 和 pytesseract 安装两个包，配置ocr的tessdata的环境变量 tessdata_preffix ,
 去百度云下载语言包，语言包解压到tessdata目录下
+
