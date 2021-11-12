@@ -11,3 +11,6 @@ pip install pillow 和 pytesseract 安装两个包，配置ocr的tessdata的环�
 
 
 
+
+
+
