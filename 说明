@@ -4,3 +4,4 @@ pip --default-timeout=100 install appium-python-client
 考研帮： ckl19960418 chen123456
 
 git config --global http.sslVerify "false"
+
