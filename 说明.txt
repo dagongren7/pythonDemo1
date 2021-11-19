@@ -31,4 +31,4 @@ git config --global --unset https.proxy
 git config --global http.sslVerify false
 
 
-token: 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
+token: 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
